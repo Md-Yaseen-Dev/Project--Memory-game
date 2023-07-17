@@ -1,0 +1,17 @@
+body {
+    margin:10px;
+    background-color: #111111;
+}
+.tiles{
+    margin:48px auto;
+    display:grid;
+    grid-template-columns: repeat(4,100px);
+    gap:16px
+
+}
+.tile{
+
+    height:100px;
+    background-color: #111111;
+    border:5px solid #4444;
+}
