@@ -34,13 +34,13 @@ and then appendchild parent to child (parentname.appendChild(childname)).
 11. in for loop add splice method for unique colors instead of repeating colors.
 12. for a getting a color in div. using add.eventlistners event =click and  add function . in that put the condition if (movingtoend is true)return nothing,else return element.style.background =color . second condition,if(activetile is not null) activetile=element and return nothing,  put movingtoend is true , settimeinterval for 1sec if no matches it result to normal state i.e( element background = null , activetile background = null, activetile =  null, and moveingtoend is equal to false).
 13. set two attribute to the element for data-color=color and date-revealed =false
-14. create a variable to get attribute of data color i.e match color and write the condtion that if match color === color{
+14. create a variable to get attribute for data color i.e match color. write the condition that if match color === color{
     set attribute to the element for data-revealed = true and set attribute to the activetile for data-revealed = true 
-}then again normal positon movingtoend = false, activetile = null and reveal +=2 because it count number if they match
+}then again normal position movingtoend = false, activetile = null and reveal +=2 because it count number to the end.
 
 15. create a variable (revealed) to get attribute for data-revealed and add it in the if condtion of movingtoend. i.e revealed === true return nothing.
 
-16. write the condition after matchcolor that if reveal == tilecount  alert("something");
+16. write the condition in the matchcolor that if reveal == tilecount  alert("something");
 
 **Review:**
 * select the parentclass 
